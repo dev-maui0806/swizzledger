@@ -229,7 +229,7 @@ const LeadFormModal = ({ isOpen, onClose, onComplete }: LeadFormModalProps) => {
               <span className="text-white text-2xl">✓</span>
             </div>
             <h3 className="text-xl font-bold mb-2">Thank you!</h3>
-            <p className="text-muted-foreground">We will contact you soon.</p>
+            <p className="text-muted-foreground">🎫 We will send the E-Ticket soon on your email.</p>
           </div>
         ) : (
           <>

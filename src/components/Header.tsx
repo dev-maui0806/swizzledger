@@ -53,7 +53,7 @@ const Header = ({ onTicketClick }: HeaderProps) => {
 
           {/* CTA Button */}
           <Button variant="ticket" size="default" className="rounded-full" onClick={onTicketClick}>
-            GET FREE TICKET
+            GET TICKET
             <ArrowRight className="w-4 h-4" />
           </Button>
         </div>

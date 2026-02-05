@@ -60,7 +60,7 @@ const HeroSection = ({ onTicketClick }: HeroSectionProps) => {
         {/* CTA */}
         <div className="text-center">
           <Button variant="hero" size="xl" className="group" onClick={onTicketClick}>
-            GET FREE TICKET
+            GET TICKET
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>
