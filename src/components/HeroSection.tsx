@@ -30,7 +30,7 @@ const HeroSection = ({ onTicketClick }: HeroSectionProps) => {
         {/* Main headline */}
         <div className="text-center max-w-5xl mx-auto mb-8">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight">
-            <span className="text-foreground">THE LARGEST</span>
+            <span className="text-foreground">THE BIGGEST</span>
             <br />
             <span className="gradient-text text-glow">CRYPTO CONFERENCE IN CALIFORNIA</span>
           </h1>

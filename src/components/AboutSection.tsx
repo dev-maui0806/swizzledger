@@ -69,7 +69,7 @@ const AboutSection = ({ onTicketClick }: AboutSectionProps) => {
             <span className="gradient-text font-semibold">March 15–16, 2026 | Los Angeles, California</span>
           </p>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-8">
-            Get ready for the largest crypto event in California — uniting industry leaders, 
+            Get ready for the biggest crypto event in California — uniting industry leaders, 
             investors, innovators, and crypto enthusiasts under one roof.
           </p>
           <Button variant="hero" size="lg" onClick={onTicketClick}>

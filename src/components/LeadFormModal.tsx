@@ -229,7 +229,7 @@ const LeadFormModal = ({ isOpen, onClose, onComplete }: LeadFormModalProps) => {
               <span className="text-white text-2xl">✓</span>
             </div>
             <h3 className="text-xl font-bold mb-2">Thank you!</h3>
-            <p className="text-muted-foreground">🎫 We will send the E-Ticket soon on your email.</p>
+            <p className="text-muted-foreground">🎫 We will send the E-Ticket soon to your email.</p>
           </div>
         ) : (
           <>
@@ -238,16 +238,11 @@ const LeadFormModal = ({ isOpen, onClose, onComplete }: LeadFormModalProps) => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-lg font-bold mb-1.5">
-                    Get Your Free Ticket to <span className="gradient-text">Ledger</span> Event
+                    Get your <span className="gradient-text">Free Ticket</span>
                   </h2>
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <p className="text-muted-foreground text-sm">
-                      Are you already a Ledger user?
-                    </p>
-                    <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-lg border border-primary/30 bg-primary/10 text-primary text-[10px] font-medium">
-                      ⚡ Exclusive for Ledger users
-                    </span>
-                  </div>
+                  <p className="text-muted-foreground text-sm">
+                    Are you already a Ledger user?
+                  </p>
                 </div>
 
                 <div className="space-y-3">
