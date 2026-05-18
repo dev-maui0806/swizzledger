@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b53ffd" />
+      <stop offset="100%" stop-color="#e830ab" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Transparent background with ONLY the clean, beautiful Australian map shape and Tasmania -->
+  <g transform="translate(6, 2.5) scale(0.88)">
+    <!-- High-Fidelity Stylized Australia Map Silhouette -->
+    <path 
+      d="M20 40 C 25 35, 30 32, 35 25 C 37 20, 42 18, 44 20 C 46 22, 45 28, 48 30 C 50 32, 54 32, 56 28 C 58 24, 62 16, 64 12 C 65 12, 66 18, 65 24 C 68 28, 72 32, 76 38 C 80 44, 86 48, 87 52 C 88 56, 84 62, 82 66 C 80 70, 77 75, 75 76 C 73 77, 72 74, 70 74 C 68 74, 66 70, 64 70 C 62 70, 63 75, 60 75 C 57 75, 54 72, 50 72 C 42 72, 30 73, 22 75 C 18 76, 16 75, 15 72 C 14 66, 16 60, 15 54 C 10 52, 11 48, 13 44 C 15 40, 18 41, 20 40 Z" 
+      fill="url(#logo-grad)" 
+      stroke="url(#logo-grad)" 
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    
+    <!-- High-Fidelity Tasmania -->
+    <path 
+      d="M70 82 C72 80, 78 80, 77 84 C76 88, 73 90, 72 89 C70 88, 68 84, 70 82 Z" 
+      fill="url(#logo-grad)" 
+      stroke="url(#logo-grad)" 
+      strokeWidth="2.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </g>
+</svg>
